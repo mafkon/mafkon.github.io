@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Open Speed Test</title>
-</head>
-<body>
-	<div style="text-align:right;position:relative;">
-		<div style="min-height:360px;">
-			<div style="width:100%;height:0;padding-bottom:50%;position:relative;">
-				<iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//openspeedtest.com/speedtest?L=light"></iframe>
-				<img src="https://i.ibb.co/ZcwRhL6/logo-mafkon.png" style="position:absolute;bottom:0;right:0;margin:10px;width:100px;height:auto;">
+	<head>
+		<title>Open Speed Test</title>
+	</head>
+	
+	<style>
+		.watermark {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		opacity: 0.5;
+		}
+
+		.watermark img {
+		height: 50px;
+		}
+	</style>
+	
+	<body>
+		<div style="text-align:right;position:relative;">
+			<div style="min-height:360px;">
+				<div style="width:100%;height:0;padding-bottom:50%;position:relative;">
+					<iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//openspeedtest.com/speedtest?L=light"></iframe>
+				</div>
+				<div class="watermark">
+				<img src="https://i.ibb.co/ZcwRhL6/logo-mafkon.png" alt="Logo Mafkon" style="position: fixed; right: 10px; bottom: 10px; z-index: 999;">
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
