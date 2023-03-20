@@ -184,10 +184,44 @@
   </main>
 <!-- partial -->
   
- <body>
+   <style>
+      ul {
+        list-style: none; /* menghilangkan tanda titik pada list */
+        display: flex; /* membuat list berbentuk flexbox */
+        flex-wrap: wrap; /* membuat tombol berderet ke kanan */
+        justify-content: space-between; /* memberikan jarak antar tombol */
+        padding: 0; /* menghapus padding pada list */
+      }
+      li {
+        margin-bottom: 10px; /* memberikan jarak antar tombol secara vertikal */
+      }
+      .red-button {
+        display: block; /* membuat tombol berbentuk block */
+        padding: 10px 20px; /* memberikan padding pada tombol */
+        background-color: red; /* memberikan warna latar belakang merah */
+        color: white; /* memberikan warna teks putih */
+        text-align: center; /* membuat teks berada di tengah */
+        text-decoration: none; /* menghapus garis bawah pada hyperlink */
+        border: none; /* menghapus border tombol */
+        border-radius: 5px; /* memberikan border-radius pada tombol */
+        transition: all 0.3s ease; /* memberikan transisi ketika tombol dihover */
+      }
+      .red-button:hover {
+        background-color: #ff4444; /* memberikan efek hover pada tombol */
+        cursor: pointer; /* mengubah bentuk kursor saat dihover */
+      }
+    </style>
+  </head>
+  <body>
     <ul>
       <li><a href="https://mafkon.github.io/tools/open-speed-test.html" class="red-button">Open Speed Test</a></li>
       <li><a href="https://mafkon.github.io/tools/random-kelompok.html" class="red-button">Random Kelompok</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
+      <li><a href="#" class="red-button">Tombol Baru</a></li>
     </ul>
   </body>
   
